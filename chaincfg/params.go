@@ -308,7 +308,7 @@ var MainNetParams = Params{
 
 	// Address encoding magics
 	PubKeyHashAddrID:        0x30, // starts with L
-	ScriptHashAddrID:        0x50, // starts with M
+	ScriptHashAddrID:        0x32, // starts with M
 	PrivateKeyID:            0xB0, // starts with 6 (uncompressed) or T (compressed)
 	WitnessPubKeyHashAddrID: 0x06, // starts with p2
 	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
@@ -384,7 +384,7 @@ var RegressionNetParams = Params{
 
 	// Address encoding magics
 	PubKeyHashAddrID: 0x6f, // starts with m or n
-	ScriptHashAddrID: 0xc4, // starts with 2
+	ScriptHashAddrID: 0x3a, // starts with Q
 	PrivateKeyID:     0xef, // starts with 9 (uncompressed) or c (compressed)
 
 	// BIP32 hierarchical deterministic extended key magics
@@ -468,7 +468,7 @@ var TestNet4Params = Params{
 
 	// Address encoding magics
 	PubKeyHashAddrID:        0x6f, // starts with m or n
-	ScriptHashAddrID:        0xc4, // starts with 2
+	ScriptHashAddrID:        0x3a, // starts with Q
 	WitnessPubKeyHashAddrID: 0x52, // starts with QW
 	WitnessScriptHashAddrID: 0x31, // starts with T7n
 	PrivateKeyID:            0xef, // starts with 9 (uncompressed) or c (compressed)
